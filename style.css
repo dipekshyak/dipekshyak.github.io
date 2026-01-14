@@ -181,4 +181,34 @@ a {
 .cert-list li {
   margin-bottom: 6px;
 }
+.app-preview {
+  background: linear-gradient(135deg, #111827, #1f2937);
+  color: #ffffff;
+  padding: 40px;
+  border-radius: 18px;
+  margin-top: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.app-text {
+  font-size: 1rem;
+  color: #e5e7eb;
+  max-width: 600px;
+}
+
+.app-button {
+  align-self: flex-start;
+  padding: 12px 22px;
+  border-radius: 999px;
+  background: #ffffff;
+  color: #111827;
+  font-weight: 700;
+  transition: transform 0.2s ease;
+}
+
+.app-button:hover {
+  transform: translateY(-2px);
+}
 
