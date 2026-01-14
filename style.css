@@ -81,4 +81,13 @@ body {
 section {
   margin-bottom: 80px;
 }
+.cert-list {
+  padding-left: 20px;
+  color: #333;
+  font-size: 0.95rem;
+}
+
+.cert-list li {
+  margin-bottom: 6px;
+}
 
